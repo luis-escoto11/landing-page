@@ -1,0 +1,106 @@
+/*
+####################################################
+M E D I A  Q U E R I E S
+####################################################
+*/
+
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+Bootstrap 4 breakpoints
+*/
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (min-width: 0px) and (max-width: 575px) {  
+    .intro-section {flex-direction: column;}
+
+    .screen{height: 100vh;}
+
+    .screen .text-container h1 {font-size: 40px;}
+
+    #text-container {padding: 25px;}
+
+    /* About section */
+    .about h2 {font-size: 65px !important; margin-bottom: 0% !important; padding: 5px;}
+    .about p {text-align: justify;}
+
+    /*  Visit section */
+    .visit-section h3 {font-size: 70px !important;}
+
+    .visit-section li {font-size: 20px !important; padding: 10px;}
+
+    /* Menu section */
+    .menu h2 {font-size: 65px !important;}
+
+    .card-action p {font-size: 25px;}
+
+    .responsive-col{width: 100% !important;}    
+
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767px) { 
+
+    .intro-section {flex-direction: column;}
+
+    .screen{height: 100vh;}
+
+    /* Visit section */
+    .visit-section h3 {font-size: 70px !important;}
+
+    .visit-section p {font-size: 120% !important;}
+
+    /* Menu section */
+    .menu h2 {font-size: 65px !important;}
+
+    .responsive-col{width: 100% !important;}
+
+    /* Footer */
+    
+}
+
+/* Medium devices (tablets, portrait mode 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .intro-section {flex-direction: column;}
+
+    .intro-section h1 {margin: 0 auto;}
+
+    .screen{height: 100vh;}
+
+     /* About section */
+     .about h2 { padding: 5px;}
+    
+    /* Visit section */
+    .visit-section p {font-size: 120% !important;}
+
+    /* Menu section */
+
+    .card-content p {font-size: 18px;}
+
+    .card-action p {font-size: 25px;}
+
+    .responsive-col{width: 100% !important;}
+
+    /* Footer */
+    
+}
+
+/* Large devices (desktops, landscape mode 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px) { 
+
+    .intro-section {flex-direction: column;}
+
+    .screen{height: 100vh;}
+
+    .screen .text-container h1 {font-size: 4.5rem;}
+
+    /* Menu section */
+    .card-action p {font-size: 25px;}
+
+    /* Footer */
+    
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}

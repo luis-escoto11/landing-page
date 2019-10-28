@@ -1,0 +1,147 @@
+/* General Styles */
+* {box-sizing: border-box;}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Merriweather', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+nav {background-color: #353b48;}
+h1, h2, h3, h4 {font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;}
+
+.color-bg{background-color: #718093;}
+
+.hero-img {
+  background: url(../img/bg-header.jpg) no-repeat;
+  background-position: center top;
+  background-size: cover;
+}
+
+.intro-section {
+  position: relative;
+  display: flex;
+  height: 100vh;
+}
+
+section .screen {
+  position: relative;
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  width: 100%;
+}
+
+.screen h1 {font-size: 90px; font-weight: 900;}
+.intro-section {background: #718093;}
+
+.intro-section .screen .text-container {
+  max-width: 500px;
+  text-align: center;
+  background: transparent;
+}
+
+.btn:link, .btn:visited {background-color: #353b48 !important;}
+.btn:hover, .btn:active {background-color: #2f3640 !important;}
+
+.container-shadow{box-shadow: 0 2rem 3rem rgba(0, 0, 0, 0.2);}
+
+.underline-small{
+  display:inline-block;
+  position:relative;
+}
+
+.underline-small::after{
+  content: '';
+  height: 2px;
+  width: 100%;
+  background: #487eb0;
+  position: absolute;
+  left: calc(5.5% - 4%);
+  bottom: -5px;
+}
+
+/* About section */
+.about {min-height: 100vh;}
+
+.about h2 {
+  margin: 100px 0 50px 0;
+  font-size: 100px;
+  font-weight: 900;
+  color: #487eb0;
+}
+
+.about p:nth-child(2){margin-bottom: 100px;}
+
+.flex-container {
+  min-height: 300px;
+  display: flex;
+  display: -webkit-flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  place-items: center;
+  margin: 100px auto;
+}
+
+.item {
+  flex: 3 0 auto;
+  margin: 10px 5px;
+}
+
+.item img{border-radius: 0.25rem;}
+
+/* Visit us section */
+.visit-section {
+  background: linear-gradient(rgba(33, 33, 33, 0.85), rgba(33, 33, 33, 0.85)), url(../img/restaurant.jpg) no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+
+.visit-section h3 {margin-top: 15vh; font-size: 100px; font-weight: 700;}
+.visit-section li {font-size: 150%; color: white; margin-bottom: 30px;}
+.v-align{vertical-align: text-bottom; margin-right: 5px;}
+
+
+.flex-container-2 {
+  display: flex;
+  display: -webkit-flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  place-items: center;
+}
+
+.item-2 {
+  flex: 3 0 auto;
+  margin: 0px 5px;
+}
+
+.flex-heading{
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  flex: 3 0 auto;
+}
+
+/* Menu section */
+.menu {
+  margin: 100px 0 100px 0;
+  min-height: 100vh;
+}
+
+.menu h2 {
+  margin-bottom: 100px;
+  font-size: 100px; 
+  font-weight: 900; 
+  color: #487eb0;
+}
+
+.card-action p{color: #487eb0 !important; font-weight: 600;}
+
+/* Footer */
+footer {background: #353b48 !important;}
+
+.footer-copyright{background: #2f3640 !important;}
+.footer-copyright a{text-decoration: underline;}
+
+footer ul li {display: inline-block;}
