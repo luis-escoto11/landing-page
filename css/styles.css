@@ -46,21 +46,6 @@ section .screen {
 
 .container-shadow{box-shadow: 0 2rem 3rem rgba(0, 0, 0, 0.2);}
 
-.underline-small{
-  display:inline-block;
-  position:relative;
-}
-
-.underline-small::after{
-  content: '';
-  height: 2px;
-  width: 100%;
-  background: #487eb0;
-  position: absolute;
-  left: calc(5.5% - 4%);
-  bottom: -5px;
-}
-
 /* About section */
 .about {min-height: 100vh;}
 
